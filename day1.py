@@ -84,3 +84,22 @@ else:
 
 
 
+# Find HCF or GCD
+def avg_number(x,y):
+    print("average of", x, 'and' ,y ,'is',(x+y)/2)
+avg_number(3, 4 )
+
+def calhcf(x,y):
+    if x>y:
+        smaller =y
+    else:
+        smaller =x
+    for i in range(1,smaller+1):
+        if ((x % i ==0)and (y % i == 0)):
+            hcf  = i
+    return hcf
+
+num1 = int(input('enter first number'))
+num2 = int(input('enter second number'))
+
+print('the hcf of', num1,'and',num2,'is',calhcf(num1,num2))
