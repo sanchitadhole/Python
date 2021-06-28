@@ -91,27 +91,27 @@
 # print(d)
 # print(d[0]==d[1]==d[2])
 
-car = {
-    'brand' : 'ford',
-    'model' : 'Mustang',
-    'year': 1979
-}
-
-for n in car:
-    print(n,car[n])
-
-x = car.keys()
-y = car.values()
-car['color'] = 'white'
-print(x)
-print(y)
-print(x,y)
+# car = {
+#     'brand' : 'ford',
+#     'model' : 'Mustang',
+#     'year': 1979
+# }
+#
+# for n in car:
+#     print(n,car[n])
+#
+# x = car.keys()
+# y = car.values()
+# car['color'] = 'white'
+# print(x)
+# print(y)
+# print(x,y)
 
 # example
-d = {0:10,1:20}
-print(d)
-d.update({3:30})
-print(d)
+# d = {0:10,1:20}
+# print(d)
+# d.update({3:30})
+# print(d)
 
 
 
